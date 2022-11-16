@@ -1,0 +1,19 @@
+// Modelo de rotas e arquivos. Requisito: 3 rotas, 4 arquivos em cada.
+{
+    "produtos":[
+        {
+            "id": 1,
+            "nome": "Hambúrguer",
+            "descricao": "Pão, bife de hambúrguer 90g, salada e batata",
+            "preco": 8.5,
+            "categoria_id": 1
+        },
+        {
+            "id": 2,
+            "nome": "X-Burguer",
+            "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata",
+            "preco": 10.5,
+            "categoria_id": 1
+        }
+    ]
+}
