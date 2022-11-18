@@ -1,18 +1,106 @@
 {
-    "produtos":[
+    "terror":[
         {
             "id": 1,
-            "nome": "Hambúrguer",
-            "descricao": "Pão, bife de hambúrguer 90g, salada e batata",
-            "preco": 8.5,
+            "nome": "Corra!",
+            "descricao": "Chris é um jovem fotógrafo negro que está prestes a conhecer os pais de Rose, sua namorada caucasiana. Com o tempo, ele percebe que a família dela esconde algo muito perturbador.",
+            "diretor": "Jordan Peele",
+            "exibicao": "sexta, sabádo, segunda",
             "categoria_id": 1
         },
         {
             "id": 2,
-            "nome": "X-Burguer",
-            "descricao": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, salada e batata",
-            "preco": 10.5,
+            "nome": "Fragmentado",
+            "descricao": "Kevin possui 23 personalidades distintas e consegue alterná-las quimicamente em seu organismo apenas com a força do pensamento. Um dia, ele sequestra três adolescentes que encontra em um estacionamento. Vivendo em cativeiro, elas passam a conhecer as diferentes facetas de Kevin e precisam encontrar algum meio de escapar.",
+            "diretor": " M. Night Shyamalan",
+            "exibicao": "domingo, terça, quarta",
             "categoria_id": 1
+        },
+        {
+            "id": 3,
+            "nome": "Órfã 2: A Origem",
+            "descricao": "Esther consegue escapar de um centro psiquiátrico onde está confinada e viaja para os Estados Unidos se passando por filha desaparecida de uma família rica. No entanto, uma mãe superprotetora fará de tudo por sua família, não importando os meios.",
+            "diretor": "William Brent Bell",
+            "exibicao":"domingo, segunda, quinta",
+            "categoria_id": 1
+        },
+        {
+            "id": 4,
+            "nome": "A Lenda de Candyman",
+            "descricao": "Um jovem artista cria uma exposição sobre Candyman, uma criatura maligna que, segundo as lendas, pode ser invocada diante de um espelho. Aos poucos, o fascínio do rapaz pelo monstro o joga em uma trama de mistérios, sangue e morte.",
+            "diretor": "Nia DaCosta",
+            "exibicao": "terça, quarta, sábado",
+            "categoria_id": 1
+        }
+    ],
+    "ficcao-cientifica":[
+        {
+            "id": 1,
+            "nome": "A Chegada",
+            "descricao": "Naves alienígenas chegaram às principais cidades do mundo. Com a intenção de se comunicar com os visitantes, uma linguista e um militar são chamados para decifrar as estranhas mensagens dos visitantes",
+            "diretor": "Denis Villeneuve",
+            "exibicao": "segunda, quarta, domingo",
+            "categoria_id": 2
+
+        },
+        {
+            "id": 2,
+            "nome": "Interestelar",
+            "descricao": "As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.",
+            "diretor": "Christopher Nolan",
+            "exibicao": "sexta, domingo, segunda",
+            "categoria_id": 2
+        },
+        {
+            "id": 3,
+            "nome": "O Guia do Mochileiro das Galáxias",
+            "descricao": "Arthur Dent é um homem normal, que está tendo um péssimo dia. Após saber que sua casa está prestes a ser demolida, ele descobre que Ford Prefect, seu melhor amigo, é um extraterrestre. Para completar, fica sabendo que a Terra está perto de ser destruída. Sem saída, Arthur pega carona em uma nave espacial que está de passagem. Ele passa então a conhecer o universo, sendo que tudo o que precisa saber sobre sua nova vida está contido em um valioso livro: o Guia do Mochileiro das Galáxias.",
+            "diretor": "Garth Jennings",
+            "exibicao": "quarta, sábado, segunda",
+            "categoria_id": 2
+
+        },
+        {
+            "id": 4,
+            "nome": "Duna",
+            "descricao": "Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.",
+            "diretor": "Denis Villeneuve",
+            "exibicao": "quinta, sábado, terça",
+            "categoria_id": 2
+        }
+    ],
+    "drama":[
+        {
+            "id": 1,
+            "nome": "O Mordomo da Casa Branca",
+            "descricao": "Cecil viveu a dureza da escravidão. Depois, trabalhou como mordomo na Casa Branca e testemunhou acontecimentos que mudaram o rumo da nação durante oito mandatos presidenciais. Enquanto isso, precisava ser marido e pai em uma sociedade turbulenta.",
+            "diretor": "Lee Daniels",
+            "exibicao": "sexta, sabádo, segunda",
+            "categoria_id": 3
+        },
+        {
+            "id": 2,
+            "nome": "Queen & Slim",
+            "descricao": "Enquanto aproveitam seu primeiro encontro, Queen e Slim são parados por uma pequena infração de trânsito. Quando a parada descontrola e Slim mata o policial em um ato de autodefesa, o casal é forçado a fugir.",
+            "diretor": "Melina Matsoukas",
+            "exibicao":"segunda, quarta, domingo",
+            "categoria_id": 3
+        },
+        {
+            "id": 3,
+            "nome": "O Ódio que Você Semeia",
+            "descricao": "Starr Carter é uma adolescente negra que presencia o assassinato de Khalil, seu melhor amigo, por um policial branco. Ela é forçada a testemunhar no tribunal por ser a única pessoa presente na cena do crime. Mesmo sofrendo uma série de chantagens, ela está disposta a dizer a verdade pela honra de seu amigo, custe o que custar.",
+            "diretor": "George Tillman, Jr.",
+            "exibicao": "quinta, sábado, terça",
+            "categoria_id": 3
+        },
+        {
+            "id": 4,
+            "nome": "Judas e o Messias Negro",
+            "descricao": "Oferecido um acordo judicial pelo FBI, William O'Neal se infiltra nos Illinois dos Panteras Negras para reunir informações sobre o presidente Fred Hampton.",
+            "diretor": "Shaka King",
+            "exibicao": "sexta, sabádo, segunda",
+            "categoria_id": 3
         }
     ]
 }
